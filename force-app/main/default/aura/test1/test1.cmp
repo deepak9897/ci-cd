@@ -12,7 +12,7 @@
  
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
     <aura:attribute name="name" type="type" default="" />
-<aura:attribute name="name1" type="type" default="" />
+    <aura:attribute name="name1" type="type" default="" />
     <aura:attribute type="String" name="form1" ></aura:attribute>
     <aura:attribute type="String" name ="url" default=''/>
     <!--<div id="aura-page">
