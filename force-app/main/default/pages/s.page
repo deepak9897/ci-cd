@@ -1,0 +1,5 @@
+<apex:page controller="showData" showHeader="false" standardStylesheets="false">
+    <apex:form >
+        <apex:outputText value="{!val}"/>
+    </apex:form>
+</apex:page>

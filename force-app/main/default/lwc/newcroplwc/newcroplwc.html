@@ -1,0 +1,14 @@
+<template>
+    <lightning-card>
+        <lightning-button variant="brand-outline" label={websiteLabel} title="Looks like a link" onclick={gotowebsite} class="slds-p-bottom_small slds-align_absolute-center slds-m-left_x-small"></lightning-button>
+        </lightning-card>
+    <div if:true={showWebsite}>
+        <iframe src="https://preproduction.newcropaccounts.com/InterfaceV7/rxentry.aspx" frameborder="0" height="1200px" width="100%" 
+        style="overflow:hidden" ></iframe>
+    </div>
+    
+    <div if:true={isLoading}>
+        <lightning-spinner variant="brand" alternative-text="Loading" size="medium"></lightning-spinner>
+    </div>
+
+</template>

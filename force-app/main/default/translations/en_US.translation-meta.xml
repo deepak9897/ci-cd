@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Apex Recipes --></label>
+        <name>Apex_Recipes</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Dreamhouse Classic --></label>
+        <name>Dreamhouse_Classic</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Dreamhouse Lightning --></label>
+        <name>Dreamhouse_Lightning</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- E-Bikes --></label>
+        <name>EBikes</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- LWC Recipes --></label>
+        <name>LWC_Recipes</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Trailhead Data Manager --></label>
+        <name>Trailhead_Data_Manager</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Visualforce to LWC --></label>
+        <name>Visualforce_to_LWC</name>
+    </customApplications>
+    <customTabs>
+        <label><!-- Apex --></label>
+        <name>Apex</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Apex Recipes --></label>
+        <name>Apex_Recipes</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Aura Interop --></label>
+        <name>Aura_Interoperability</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Bike Card --></label>
+        <name>Bike_Card</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Composition --></label>
+        <name>Composition</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Data Import --></label>
+        <name>Data_Import</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Data Service --></label>
+        <name>Data_Service</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Error Handling --></label>
+        <name>Error_Handling</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Event Comms --></label>
+        <name>Event_Comms</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Child-to-Parent --></label>
+        <name>Events</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Hello --></label>
+        <name>Hello</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Layout --></label>
+        <name>Layout</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Leads --></label>
+        <name>Leads</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Manager Overview --></label>
+        <name>Manager_Overview</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Message Service --></label>
+        <name>Message_Service</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Misc --></label>
+        <name>Misc_Techniques</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Mixed Records --></label>
+        <name>Mixed_Records</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Navigation --></label>
+        <name>Navigation</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Opportunities --></label>
+        <name>Opp_Disco</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Parent-to-Child --></label>
+        <name>Parent_to_Child</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- PatientDetail --></label>
+        <name>PatientDetail</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Product Explorer --></label>
+        <name>Product_Explorer</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Record Lists --></label>
+        <name>Record_Lists</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Single Records --></label>
+        <name>Single_Records</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Trailhead Data Manager --></label>
+        <name>Trailhead_Data_Manager</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Trailhead Event Monitoring --></label>
+        <name>Trailhead_Event_Monitoring</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Wire --></label>
+        <name>Wire</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- 3rd Party Libs --></label>
+        <name>X3rd_Party_Libs</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Your Bike Selection --></label>
+        <name>Your_Bike_Selection</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Adreess</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Lock_Opportunity_Record</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>metadata1_flow</fullName>
+    </flowDefinitions>
+    <prompts>
+        <name>SingleRecords</name>
+        <promptVersions>
+            <name>Single Records Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Single Records Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Single Records Step 3</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Single Records Step 4</name>
+            <stepNumber>4</stepNumber>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>ProductDetail</name>
+        <promptVersions>
+            <name>Product Detail Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Product Detail Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Product Detail Step 3</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>MixedRecords</name>
+        <promptVersions>
+            <name>Mixed Records Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Mixed Records Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>CompositionWalkthrough</name>
+        <promptVersions>
+            <name>Composition Walkthrough Step 3</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Composition Walkthrough Step 4</name>
+            <stepNumber>4</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Composition Walkthrough Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Composition Walkthrough Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Composition Walkthrough Step 5</name>
+            <stepNumber>5</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Composition Walkthrough Step 6</name>
+            <stepNumber>6</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Composition Walkthrough Step 7</name>
+            <stepNumber>7</stepNumber>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>Layout</name>
+        <promptVersions>
+            <name>Layout Step 3</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Layout Step 2</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Layout Step 4</name>
+            <stepNumber>4</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Layout Step 5</name>
+            <stepNumber>5</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Layout Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>ProductExplorer</name>
+        <promptVersions>
+            <name>Product Explorer Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Product Explorer Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Product Explorer Step 3</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Product Explorer Step 4</name>
+            <stepNumber>4</stepNumber>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>ErrorHandling</name>
+        <promptVersions>
+            <name>Error Handling Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Error Handling Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>OrderBuilder</name>
+        <promptVersions>
+            <name>Order Builder Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Order Builder Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Order Builder Step 3</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Order Builder Step 4</name>
+            <stepNumber>4</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Order Builder Step 5</name>
+            <stepNumber>5</stepNumber>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>ApexRecipesIntroWalkthrough</name>
+        <promptVersions>
+            <name>Apex Recipes Intro Walkthrough Step 3</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Apex Recipes Intro Walkthrough Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Apex Recipes Intro Walkthrough Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Apex Recipes Intro Walkthrough Step 4</name>
+            <stepNumber>4</stepNumber>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>Miscand3rdPartyWalkthrough</name>
+        <promptVersions>
+            <name>Misc and 3rd Party Walkthrough Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Misc and 3rd Party Walkthrough Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Misc and 3rd Party Walkthrough Step 3</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>HelloWalkThrough</name>
+        <promptVersions>
+            <name>Hello Walk Through Step 3</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Hello Walk Through Step 4</name>
+            <stepNumber>4</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Hello Walk Through Step 5</name>
+            <stepNumber>5</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Hello Walk Through Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Hello Walk Through Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>DataWalkthrough</name>
+        <promptVersions>
+            <name>Data Walkthrough Step 3</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Data Walkthrough Step 4</name>
+            <stepNumber>4</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Data Walkthrough Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Data Walkthrough Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Data Walkthrough Step 5</name>
+            <stepNumber>5</stepNumber>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>RecordLists</name>
+        <promptVersions>
+            <name>Record Lists Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Record Lists Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Record Lists Step 3</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+    </prompts>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+</Translations>

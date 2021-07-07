@@ -1,0 +1,13 @@
+<aura:component   implements="lightning:isUrlAddressable,force:appHostable,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+
+    <aura:attribute type ="String" default="blank" name="Cont"/>
+      {!v.Cont}
+        <div  aura:id="b" style = "display:block" >
+        newcrop
+        
+    </div>
+
+    
+     <button class="slds-button slds-button_brand" id="Hide" onclick="{!c.showhide}" >Go</button>
+         
+</aura:component>

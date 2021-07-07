@@ -1,0 +1,34 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction" access="global"  >
+    
+    
+    
+    <aura:attribute name="selTabId" type="String" default="tab1" />
+    
+    <aura:attribute name="contactrecord" type="Contact" default="{'sobjectType':'Contact',
+                                                                 'PatientId__c':'',
+                                                                 'BirthDate':'',
+                                                                 'FirstName':'',
+                                                                 'LastName':''}"/>
+    
+    <lightning:card variant="Narrow"   iconName="action:new_child_case">
+        
+        <aura:set attribute="title">
+            <b>Patient Details</b>
+        </aura:set>
+        <lightning:input label="PatientId" placeholder="Enter PatientId" value="{!v.Contactrecord.PatientId__c}" aura:id="txt1" />
+        
+        <lightning:input label="FirstName" placeholder="Enter FirstName" value="{!v.Contactrecord.FirstName}" aura:id="txt2" />
+        <lightning:input label="LastName" placeholder="Enter LastName" value="{!v.Contactrecord.LastName}" aura:id="txt3" />
+        
+        <lightning:input label="DOB" placeholder="Enter DOB"  value="{!v.Contactrecord.BirthDate}" aura:id="txt4" />
+        
+        <lightning:spinner aura:id="myspinner" class="slds-hide"/>
+        <lightning:button label="Save Record" onclick="{!c.patientinsert}"></lightning:button>
+        
+    </lightning:card>
+    
+    
+    
+    
+    
+</aura:component>

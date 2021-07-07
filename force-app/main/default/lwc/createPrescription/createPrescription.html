@@ -1,0 +1,17 @@
+<template>
+<div >
+    <lightning-button variant="brand" label="Get Prescription" title="Get Prescription" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+</div>
+<br/>
+<div data-id="framespace">
+
+</div>
+<div>
+    <br/>
+<form  target="iframe_a" name="info" method="post"  id='form1'  action="https://preproduction.newcropaccounts.com/InterfaceV7/rxentry.aspx"> 
+    <textarea  id="RxInput" name="RxInput" rows="14" cols="205" >
+        {form1}
+    </textarea>
+</form>
+</div>
+</template>

@@ -1,0 +1,23 @@
+<aura:component controller="demo">
+	
+    <aura:attribute name="acclist" type="Account[]"/>
+    <aura:handler name="init" value="{!this}" action="{!c.showdata}"></aura:handler>
+    <aura:handler name="viewmydata" event="c:viewevent" action="{!c.showdata1}"></aura:handler>
+    
+    <c:filterdatacomponent/>
+    
+    <table>
+    <tr><th>Name</th>
+     <th>Type</th>
+    <th>AnnualRevenue</th></tr>
+        
+        <aura:iteration items="{!v.acclist}" var="a">
+        <tr>
+            <td>{!a.Name}</td>
+            <td>{!a.Type}</td>
+            <td>{!a.AnnualRevenue}</td>
+            </tr>
+        
+        </aura:iteration>
+    </table>
+</aura:component>

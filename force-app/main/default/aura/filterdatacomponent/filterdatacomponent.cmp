@@ -1,0 +1,5 @@
+<aura:component >
+	
+    <aura:registerEvent name="viewmydata" type="c:viewevent"/>
+    <lightning:input placeholder="SEARCH BY NAME" onchange="{!c.show}" aura:id="txt1"></lightning:input>
+</aura:component>

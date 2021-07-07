@@ -1,0 +1,46 @@
+<aura:component  controller="testapex1" implements="lightning:isUrlAddressable,force:appHostable,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    <aura:dependency resource="markup://force:navigateToURL" type="EVENT"/>
+      <aura:attribute name="showIframe" type="boolean" default="false"/>
+      <aura:attribute name="buttonlabel" type="String" default="Hide"/>
+    <!--<aura:attribute name="bodydetail" type="String" />-->
+    <aura:attribute name="Contacts" type="Contact" />
+    <aura:attribute name="Contactdetail" type="Contact" default="{'sobjectType':'Contact',
+                                                                        'FirstName':'',
+                                                                        'LastName':'',
+                                                                        'PatientId__c':'',
+                                                                        'BirthDate':''}"/>
+ 
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute type="String" name="form1" ></aura:attribute>
+    <aura:attribute type="String" name ="url" default=''/>
+    <!--<div id="aura-page">
+        <div class="container">
+            <ui:button label="GO" press="{!c.gotoURL}" />
+        </div>
+    </div> -->
+     <div >
+            <button class="slds-button slds-button_brand" onclick="{!c.handleclick}" label="Initiate">Create Prescription</button>
+         <button class="slds-button slds-button_brand" id="Hide" onclick="{!c.showhide}" label="{!v.buttonlabel}" style="display:none">{!v.buttonlabel}</button>
+         
+        </div>
+     <div>
+        <br/>
+        <iframe name="iframe_a" style="width:100%; border: 0; display:none;"  aura:id="iframe">
+           <!-- <p>Your browser does not support iframes.</p>-->
+        </iframe>
+    </div>
+    <div>
+          <br/>
+        <form  target="iframe_a" name="info" method="post"  aura:id="form1"  action="https://preproduction.newcropaccounts.com/InterfaceV7/rxentry.aspx"> 
+            
+           
+             
+            <textarea value="{!v.form1}" id="RxInput" name="RxInput" rows="14" cols="205" >
+                  
+            </textarea>
+        </form>
+        
+    </div>
+   
+</aura:component>
